@@ -23,7 +23,7 @@ def get_playable_podcast(soup):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': “https://ssl-static.libsyn.com/p/assets/3/4/5/f/345fbd6a253649c0/RevolutionsLogo_V2.jpg”
+                'thumbnail': "https://ssl-static.libsyn.com/p/assets/3/4/5/f/345fbd6a253649c0/RevolutionsLogo_V2.jpg"
         }
         subjects.append(item) 
      return subjects
@@ -40,7 +40,7 @@ def compile_playable_podcast(playable_podcast):
 
 def get_playable_podcast1(soup):
     subjects = []
-    for content in soup.find_all('item', limit=10):
+    for content in soup.find_all('item', limit=14):
         try:        
             link = content.find('link')
             link = link.get()
@@ -52,7 +52,7 @@ def get_playable_podcast1(soup):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': “https://ssl-static.libsyn.com/p/assets/3/4/5/f/345fbd6a253649c0/RevolutionsLogo_V2.jpg”,
+                'thumbnail': "https://ssl-static.libsyn.com/p/assets/3/4/5/f/345fbd6a253649c0/RevolutionsLogo_V2.jpg",
         }
         subjects.append(item) 
      return subjects
