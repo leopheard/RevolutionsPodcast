@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.revolutionspodcast" name="Revolutions Podcast" version="1.0.0" provider-name="leopheard">
+<addon id="plugin.audio.revolutionspodcast" name="Revolutions Podcast" version="1.0.1" provider-name="leopheard">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -14,7 +14,7 @@
     <platform>all</platform>
     <language>en_us</language>
     <summary lang="en">Revolutions Podcast</summary>
-    <description lang="en">Mike Duncan grew up outside of Seattle, WA and has a degree in Political Science from Western Washington University. After completing The History of Rome podcast he studied Public History at Texas State University but dropped everything to move to Madison WI where he now changes diapers, writes short cartoon histories and produces the Revolutions Podcast.</description>
+    <description lang="en">A weekly podcasting exploring great political revolutions. Now: The Russian Revolution Next: ??? Mike Duncan grew up outside of Seattle, WA and has a degree in Political Science from Western Washington University. After completing The History of Rome podcast he studied Public History at Texas State University but dropped everything to move to Madison WI where he now changes diapers, writes short cartoon histories and produces the Revolutions Podcast.</description>
     <license>The MIT License (MIT)</license>
     <forum></forum>
     <email>leopheard@gmail.com</email>
